@@ -1,5 +1,5 @@
 ---
-pagetitle: "indexedd_mw_container"
+pagetitle: "Minimum wage indexing"
 execute:
   echo: false
 ---
@@ -17,11 +17,18 @@ import {viewof seriesDeflated} from "@benzipperer/indexed_mw"
 
 import {mwPlotLegend} from "@benzipperer/indexed_mw"
 
-import {heading} from "@benzipperer/indexed_mw"
+import {mwPlotTitle} from "@benzipperer/indexed_mw"
+
+import {introText} from "@benzipperer/indexed_mw"
+
+import {additionalText} from "@benzipperer/indexed_mw"
+
 ```
 
 ```{ojs}
-heading
+mwPlotTitle
+
+introText
 ```
 
 ```{ojs}
@@ -36,4 +43,8 @@ viewof indexType
 viewof indexBase
 
 viewof seriesDeflated
+```
+
+```{ojs}
+additionalText
 ```
