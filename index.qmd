@@ -4,6 +4,41 @@ execute:
   echo: false
 ---
 
+# We should index and automatically increase the national minimum wage
+```{ojs}
+introText
+```
+
+```{ojs}
+mwPlotTitle
+
+mwPlot
+
+mwPlotLegend
+```
+
+```{ojs}
+viewof indexType
+
+viewof indexBase
+
+viewof seriesDeflated
+```
+
+::: {.figure-notes}
+```{ojs}
+mwPlotNotes
+```
+:::
+
+```{ojs}
+additionalText
+```
+
+```{ojs}
+methodologyText
+```
+
 ```{ojs}
 Plot = import("https://esm.sh/@observablehq/plot")
 
@@ -19,32 +54,11 @@ import {mwPlotLegend} from "@benzipperer/indexed_mw"
 
 import {mwPlotTitle} from "@benzipperer/indexed_mw"
 
+import {mwPlotNotes} from "@benzipperer/indexed_mw"
+
 import {introText} from "@benzipperer/indexed_mw"
 
 import {additionalText} from "@benzipperer/indexed_mw"
 
-```
-
-```{ojs}
-mwPlotTitle
-
-introText
-```
-
-```{ojs}
-mwPlot
-
-mwPlotLegend
-```
-
-```{ojs}
-viewof indexType
-
-viewof indexBase
-
-viewof seriesDeflated
-```
-
-```{ojs}
-additionalText
+import {methodologyText} from "@benzipperer/indexed_mw"
 ```

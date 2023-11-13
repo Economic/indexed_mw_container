@@ -2,8 +2,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "indexed_mw_container",
+    "title": "We should index and automatically increase the national minimum wage",
     "section": "",
-    "text": "Plot = import(\"https://esm.sh/@observablehq/plot\")\n\nimport {mwPlot} from \"@benzipperer/indexed_mw\"\n\nimport {viewof indexType} from \"@benzipperer/indexed_mw\"\n\nimport {viewof indexBase} from \"@benzipperer/indexed_mw\"\n\nimport {viewof seriesDeflated} from \"@benzipperer/indexed_mw\"\n\nimport {mwPlotLegend} from \"@benzipperer/indexed_mw\"\n\nimport {mwPlotTitle} from \"@benzipperer/indexed_mw\"\n\nimport {introText} from \"@benzipperer/indexed_mw\"\n\nimport {additionalText} from \"@benzipperer/indexed_mw\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmwPlotTitle\n\n\n\n\n\n\n\nintroText\n\n\n\n\n\n\n\n\n\nmwPlot\n\n\n\n\n\n\n\nmwPlotLegend\n\n\n\n\n\n\n\n\n\nviewof indexType\n\n\n\n\n\n\n\nviewof indexBase\n\n\n\n\n\n\n\nviewof seriesDeflated\n\n\n\n\n\n\n\n\n\nadditionalText"
+    "text": "We should index and automatically increase the national minimum wage\n\nintroText\n\n\n\n\n\n\n\nmwPlotTitle\n\n\n\n\n\n\n\nmwPlot\n\n\n\n\n\n\n\nmwPlotLegend\n\n\n\n\n\n\n\n\n\nviewof indexType\n\n\n\n\n\n\n\nviewof indexBase\n\n\n\n\n\n\n\nviewof seriesDeflated\n\n\n\n\n\n\n\n\n\n\nmwPlotNotes\n\n\n\n\n\n\n\n\nadditionalText\n\n\n\n\n\n\n\nmethodologyText\n\n\n\n\n\n\n\nPlot = import(\"https://esm.sh/@observablehq/plot\")\n\nimport {mwPlot} from \"@benzipperer/indexed_mw\"\n\nimport {viewof indexType} from \"@benzipperer/indexed_mw\"\n\nimport {viewof indexBase} from \"@benzipperer/indexed_mw\"\n\nimport {viewof seriesDeflated} from \"@benzipperer/indexed_mw\"\n\nimport {mwPlotLegend} from \"@benzipperer/indexed_mw\"\n\nimport {mwPlotTitle} from \"@benzipperer/indexed_mw\"\n\nimport {mwPlotNotes} from \"@benzipperer/indexed_mw\"\n\nimport {introText} from \"@benzipperer/indexed_mw\"\n\nimport {additionalText} from \"@benzipperer/indexed_mw\"\n\nimport {methodologyText} from \"@benzipperer/indexed_mw\""
   }
 ]
