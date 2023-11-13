@@ -1,0 +1,39 @@
+---
+pagetitle: "indexedd_mw_container"
+execute:
+  echo: false
+---
+
+```{ojs}
+Plot = import("https://esm.sh/@observablehq/plot")
+
+import {mwPlot} from "@benzipperer/indexed_mw"
+
+import {viewof indexType} from "@benzipperer/indexed_mw"
+
+import {viewof indexBase} from "@benzipperer/indexed_mw"
+
+import {viewof seriesDeflated} from "@benzipperer/indexed_mw"
+
+import {mwPlotLegend} from "@benzipperer/indexed_mw"
+
+import {heading} from "@benzipperer/indexed_mw"
+```
+
+```{ojs}
+heading
+```
+
+```{ojs}
+mwPlot
+
+mwPlotLegend
+```
+
+```{ojs}
+viewof indexType
+
+viewof indexBase
+
+viewof seriesDeflated
+```

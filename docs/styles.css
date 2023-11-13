@@ -1,0 +1,14 @@
+/* css styles */
+form > label {
+  color: #4b4d4f;
+  font-weight: 600;
+  font-size: 0.9125rem;
+  letter-spacing: 0.4px;
+  --label-width: 180px;
+}
+.legend {
+  justify-content: flex-end;
+}
+form {
+  margin-top: 1em;
+}
